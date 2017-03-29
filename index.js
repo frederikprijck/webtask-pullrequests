@@ -180,7 +180,7 @@ const webTaskHandler = (ctx, done) => {
                 ghApi,
                 pr
             }).then(result => done(null, result), result => done(null, result))
-        }, (e) => {
+        }, () => {
             done(null, `The provided url (${url}) is invalid.`);
         });
     } else {
