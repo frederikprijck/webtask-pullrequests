@@ -131,8 +131,7 @@ class PullRequestParser {
 const updatePullRequest = ({ ghApi, pr, owner, repository, prNumber }) => {
     return new Promise((resolve, reject) => {
         const comment = `Hi @${pr.userName},
-            Thanks for creating a pull request. We'll review this PR as soon as possible, please be patient.
-            Remember that PR's are reserved for issues and feature requests only.`;
+            Thanks for creating a pull request. We'll review this PR as soon as possible, please be patient.`;
 
         const prInfo = PullRequestParser.parseTitle(pr.title);
         const labels = prInfo ? [
