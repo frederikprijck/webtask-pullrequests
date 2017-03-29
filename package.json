@@ -1,0 +1,17 @@
+{
+  "name": "webtask-pr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "wt create index.js --name webtask-pr --secret githubToken={TOKEN}"
+  },
+  "author": "Frederik Prijck <frederik.prijck@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "wt-cli": "^4.0.6"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
