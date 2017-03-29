@@ -14,7 +14,7 @@ If the above rules where satisfied, corresponding labels will be added (`type: [
 
 # Testing the set up
 ## Live
-I've created a public repository which you can use to test the integreation, feel free to create several PR's at https://github.com/frederikprijck/test. Labels and comments should be added automaticly (tho it can take a while before IFTTT picks it up).
+I've created a public repository which you can use to test the integration, feel free to create several PR's at https://github.com/frederikprijck/test. Labels and comments should be added automaticly (tho it can take a while before IFTTT picks it up).
 
 ## Deploy your own version
 I understand that, for testing purposes, you prefer to deploy the webtask your self.
